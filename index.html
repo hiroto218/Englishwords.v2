@@ -3144,10 +3144,6 @@
     );
 }
 
-    savedMistakes = savedMistakes.filter(savedItem => 
-        !correctlyAnsweredMistakes.some(correctItem => correctItem.english === savedItem.english)
-    );
-
         
         function showResult() {
             showScreen('resultContainer');
